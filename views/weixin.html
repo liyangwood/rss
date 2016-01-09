@@ -12,7 +12,7 @@
         	{% autoescape false %}
           	<title><![CDATA[{{ item.title }}]]></title>
         	{% endautoescape %}
-         	 <link>{{ item.url }}</link>
+         	 <link>http://weixin.sogou.com{{ item.url }}</link>
           	<author>{{ rss.author }}</author>
           	{% autoescape false %}
             <description><![CDATA[ {{ item.fullContent ? item.fullContent : item.content }} ]]></description>
